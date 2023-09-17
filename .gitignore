@@ -1,3 +1,4 @@
+.svelteup/
 .DS_Store
 src/index.js
 node_modules/
