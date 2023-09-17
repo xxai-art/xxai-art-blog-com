@@ -26,7 +26,7 @@ IGNORE_WARN = new Set(
     css: 'external'
     customElement: true
   }
-  esbuild
+  # esbuild
   onwarn: (warn) =>
     {code,message} = warn
     if code == 'a11y-missing-attribute'

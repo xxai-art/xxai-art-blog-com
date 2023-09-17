@@ -31,7 +31,7 @@ export default {
     css: 'external',
     customElement: true
   },
-  esbuild,
+  // esbuild
   onwarn: (warn) => {
     var code, message;
     ({code, message} = warn);

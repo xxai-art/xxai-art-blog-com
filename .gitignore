@@ -1,2 +1,4 @@
 .DS_Store
+src/index.js
 node_modules/
+conf/*.js
