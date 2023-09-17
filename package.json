@@ -6,6 +6,7 @@
     "@w5/svelte-preprocess": "^5.0.20",
     "@w5/svelteup": "^2.0.38",
     "@w5/uridir": "^0.0.1",
+    "concurrently": "^8.2.1",
     "esbuild": "^0.19.3",
     "into-stream": "^8.0.0",
     "nodemon": "^3.0.1",
