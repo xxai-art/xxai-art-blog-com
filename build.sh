@@ -5,5 +5,6 @@ cd $DIR
 set -ex
 
 bun x cep -c conf
+rm -rf lib
 ./conf/index.js.gen.js
 bun x svelteup --config conf/svelteup.config.js

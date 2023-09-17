@@ -23,7 +23,7 @@ write(join(ROOT, 'lib/DEV.js'), 'export default ' + DEV);
 IGNORE_WARN = new Set('a11y-no-noninteractive-element-interactions a11y-click-events-have-key-events a11y-missing-content a11y-no-static-element-interactions'.split(' '));
 
 export default {
-  entry: join(SRC, 'index.js'),
+  entry: 'src/index.js',
   outdir: join(ROOT, 'lib'),
   sourcemap: DEV, // true
   servedir: '.',
