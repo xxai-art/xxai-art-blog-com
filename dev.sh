@@ -4,4 +4,6 @@ DIR=$(realpath $0) && DIR=${DIR%/*}
 cd $DIR
 set -ex
 
-bun x cep -c conf/svelteup.config.coffee -o conf
+bun x cep -c conf
+
+bun x svelteup --config conf/svelteup.config.js
