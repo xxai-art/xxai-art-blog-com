@@ -7,13 +7,10 @@ import {
   dirname
 } from 'path';
 
-import esbuild from './esbuild';
-
-import markup from './markup';
-
-import postcss from './postcss';
-
 import {
+  // ./esbuild
+  // ./markup
+  // ./postcss
   DEV,
   SRC,
   ROOT
@@ -51,7 +48,9 @@ export default {
     //  return {
     //    code:css
     //  }
-    {markup},
+    // {
+    //   markup
+    // }
     SveltePreprocess({
       sourceMap: true,
       coffeescript: {
@@ -75,8 +74,9 @@ export default {
       stylus: true,
       pug: {
         basedir: SRC
-      },
-      postcss
+      }
     })
   ]
 };
+
+// postcss
