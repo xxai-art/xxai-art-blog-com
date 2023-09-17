@@ -1,3 +1,6 @@
 {
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@w5/svelteup": "^2.0.38"
+  }
 }
